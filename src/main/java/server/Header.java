@@ -4,9 +4,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 public class Header {
-    private Header(){}
+    private Header() {
+    }
 
-    public static void appendHead(Document doc, String title){
+    public static void appendHead(Document doc, String title) {
 
         Element head = doc.appendElement("head");
         head.appendChild(new Element("html").attr("lang", "de"));
