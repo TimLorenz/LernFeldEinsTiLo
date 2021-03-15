@@ -38,3 +38,5 @@ public class RestServer {
 
     }
 }
+
+//in Webbrowser: http://localhost:8080/controls/welcome
